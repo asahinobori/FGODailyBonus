@@ -23,7 +23,7 @@ if UA != 'nullvalue':
 
 
 def main():
-    url.SendMessageToAdmin("大佬好 *%s点* 了" % mytime.GetNowTimeHour())
+    url.SendMessageToAdmin(">w< 大佬你好 *%s点* 了" % mytime.GetNowTimeHour())
     if userNums == authKeyNums and userNums == secretKeyNums:
         url.ReadConf()
         print("待签到: %d 个" % userNums)
